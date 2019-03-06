@@ -1,0 +1,84 @@
+body{
+    background-image: linear-gradient(to left bottom, #5300f0, #4340fa, #3e5fff, #4778ff, #5c8efd, #6b95fb, #789cf9, #84a3f7, #889ef7, #8d9af7, #9294f6, #988ff4);
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+margin: 0 auto;
+padding:0 auto;
+
+}
+#titulo{
+    font-family:  Georgia;
+    font-size: 25px;
+    text-align: center;
+    color: #0be7d1;
+    text-shadow: 2px 0 0 #000, -2px 0px 0px black, 0px 2px 0px black, 0px -2px 0px black;  
+    float: left;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px !important;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: right;
+  
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  .active {
+      background-color: #08f592;
+    }
+    li {
+      border-right: 1px solid #bbb;
+    }
+    
+    li:last-child {
+      border-right: none;
+    }
+    ul {
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+
+    .pasta{
+        margin: 5%;
+        width: 25%;
+        text-align: center;
+        color: white; 
+        display: inline-block;
+    }
+
+    #pastas{
+      margin-left: 20%;
+    }
+    
+    #img01{
+        width: 100%;
+        border-radius: 70%;
+    }
+    #tudo{
+       margin: 0;
+    background-color: rgb(0, 0, 0,0.5);
+    }
+    figure{
+        margin: 0 auto;
+        padding: 0 auto;
+    }
