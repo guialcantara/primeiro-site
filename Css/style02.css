@@ -80,14 +80,14 @@ ul {
         transition: 0.15s;
       }
       
-      .vertical-menu a:hover {
+      .vertical-menu  a:hover {
         background-color: #000; /* Dark grey background on mouse-over */
         transform: scale(1.3);
         transition: 0.3s;
     }
       
       .vertical-menu a.active {
-        background-color: #4CAF50; /* Add a green color to the "active/current" link */
+        background-color: #08f592; /* Add a green color to the "active/current" link */
         color: white;
       }
     .pasta{
@@ -128,7 +128,7 @@ ul {
                     #pasta06{
                         transform: rotate(-7deg);
                         box-shadow: 10px 10px 5px #aaaaaa;
-                        transition: 0.2s
+                        transition: 0.2s;
                         margin-top: 5%;
                         margin-left: 4%;
                         }
